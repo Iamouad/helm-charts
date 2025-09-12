@@ -82,3 +82,5 @@ image:
 
 htmlContent:
   message: "HELLO ITSF"
+
+replicaCount: 2
