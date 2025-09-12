@@ -1,0 +1,21 @@
+{{- if .Values.htmlContent.message }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "my-nginx-app.fullname" . }}
+  labels:
+    {{- include "my-nginx-app.labels" . | nindent 4 }}
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Nginx</title>
+    </head>
+    <body>
+        <h1>{{ .Values.htmlContent.message | default "Hello" }}</h1>
+    </body>
+    </html>
+{{- end }}

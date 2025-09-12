@@ -1,0 +1,94 @@
+tls:
+  enabled: true
+  secretName: nginx-risf-tls
+  cert: |
+    -----BEGIN CERTIFICATE-----
+    MIIFqTCCA5GgAwIBAgIUNJtxnA3frayS4XxeQ44SrXmy0AQwDQYJKoZIhvcNAQEL
+    BQAwga4xCzAJBgNVBAYTAkZSMQ4wDAYDVQQIDAVBbHBlczEQMA4GA1UEBwwHQW50
+    aWJlczEYMBYGA1UECgwPTU8gb3JnYW5pemF0aW9uMRYwFAYDVQQLDA1JVCBEZXBh
+    cnRtZW50MSIwIAYDVQQDDBlNT1VBRCBPUkcgUm9vdCBDQSBSb290IENBMScwJQYJ
+    KoZIhvcNAQkBFhhtb3VhZGF6YW91YXk5OEBnbWFpbC5jb20wHhcNMjUwOTExMTI1
+    MTIyWhcNMjYwOTExMTI1MTIyWjCBrDELMAkGA1UEBhMCRlIxEDAOBgNVBAgMB0Fu
+    dGliZXMxDjAMBgNVBAcMBUFscGVzMRgwFgYDVQQKDA9NTyBvcmdhbml6YXRpb24x
+    FjAUBgNVBAsMDUlUIERlcGFydG1lbnQxIDAeBgNVBAMMF2hlbGxvLXJpc2YubG9j
+    YWwuZG9tYWluMScwJQYJKoZIhvcNAQkBFhhtb3VhZGF6YW91YXk5OEBnbWFpbC5j
+    b20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5B9R5JjXOghF0tUYA
+    OZsH7XhThyJbYP6Qati8PFHvRmTQDD3QVU1kewWYtT1sfxhhcT15AZZpiQ6atpyI
+    bci6e3wR6b2gca4wjknw2ShT6dM8roJfIURB3E+vT1/FDZ/JNnpBQYsHDUemF1oR
+    6a5D2EtmyKkj6LUD6+UZn0+1QAJBFvqb1eMTSPA/zL7x9FOvBHLBQgIPBeHFq1Q6
+    WTNbwGLqvFGdX6vm7N2JkH0ky4hNUBJIBZcYkTmQaWLvkbXvYlZ8QahfM1l5q2eO
+    vF2fwz0xiwzU21hHcuEIJcX6Nxmhw2tkD5S/g+6LauWnHUdpHZq+tooryeSRG+AH
+    5vR/AgMBAAGjgb4wgbswHwYDVR0jBBgwFoAUYDRiIAhv5fprTqr7Ic1ZniCTBWUw
+    CQYDVR0TBAIwADALBgNVHQ8EBAMCBDAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwTAYD
+    VR0RBEUwQ4IXaGVsbG8tcmlzZi5sb2NhbC5kb21haW6CCWxvY2FsaG9zdIIXaGVs
+    bG8tcmlzZi5sb2NhbC5kb21haW6HBH8AAAEwHQYDVR0OBBYEFNbEy5eu1byqV3Qf
+    aQgyNQnbZeFpMA0GCSqGSIb3DQEBCwUAA4ICAQBA/b+DfA/qXjlREM7B1P7FBVOX
+    nan13Me4uZUCEA6lJbWSf/ywYRHMYFVADj1jX7jQekHZxKofmoccZPaYaNMlMPQ+
+    ggvZ71CD2hJVOKupxKChmFVOYq3qMtYHc58RzFSUCRzyIN1nQgh95AUuqY4KLK98
+    uJq/N7FS5Muq3tWAwut7BkP4yp2uA2sY8ZSLNt7Tjm2dv+u5iQrzI1XEUrVicINK
+    aIiKLnLsKqg4e+sxghQwYJA3S73ydZijWs7puLy8z4WJFKHjXFu1NIfffG66mAGT
+    hefzULp6F2xyHrNgEBh+LJPiIVsua2ymhorhWqIQgqPJUVuYMwTJn27G1+KkT5xO
+    7BdZnNWtVeTFFNeeDsdAnljobq+OzQzs8tTWwodqx7hipl8VWxQ1xJHXQlMIWv+3
+    RMPg3PHlS/u8XVGBoD8GtkfYF9XUQD4FD79UNMafwFRMRsUI6ixSiHQEY/+RmUfK
+    7RI1vUHiOsDBeCF/meFBiz/3wyqrE5cF7+lQ+CfvJcwxeS9Qy6ODZsGvUAmu5Vsh
+    oFJyGelHviOTWAMTX9HgzUVtt4rlhNgQfA1/0GHtruJE5sFadW5BkL6geTdKqNbC
+    4wieA2IKtgGMbA0vAgAths5ZqAHxII9fdW2KgZ0b+NY86gzVfnwvfVgibSXgFacr
+    yEi1xIvl51Xn5UFgaA==
+    -----END CERTIFICATE-----
+  key: |
+    -----BEGIN PRIVATE KEY-----
+    MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5B9R5JjXOghF0
+    tUYAOZsH7XhThyJbYP6Qati8PFHvRmTQDD3QVU1kewWYtT1sfxhhcT15AZZpiQ6a
+    tpyIbci6e3wR6b2gca4wjknw2ShT6dM8roJfIURB3E+vT1/FDZ/JNnpBQYsHDUem
+    F1oR6a5D2EtmyKkj6LUD6+UZn0+1QAJBFvqb1eMTSPA/zL7x9FOvBHLBQgIPBeHF
+    q1Q6WTNbwGLqvFGdX6vm7N2JkH0ky4hNUBJIBZcYkTmQaWLvkbXvYlZ8QahfM1l5
+    q2eOvF2fwz0xiwzU21hHcuEIJcX6Nxmhw2tkD5S/g+6LauWnHUdpHZq+tooryeSR
+    G+AH5vR/AgMBAAECggEAD/Ll1J9/idJaUNYDN6e/fjpw4bpHMts0dhxPnEISye4m
+    aGx1s4x2xE96VwRgTAbUgimxo8mIPoaK1Lki2vujjrdwJVchej/yRMsvAmyldj40
+    cAmWwT5r1MV5tOHBnomjGUPx28gbhLsXTvC6Wcrrs3tkXHK1aZv4ZmMh90htJXE+
+    cqozNiWMdPNNViz7zqllTa85q/SaOOJR8RPAskIgca7piEB8ZBMo/IS3kvmE0vS4
+    yijemgZ8jD+ecdZDQRLCiNT414DTdaCtSdAkOknq9u3svlnR+FDUeyh2salc/A6S
+    50/54B233KJtxQtgKpiv0FD53bHUtTEBI1zDbJGTkQKBgQDjGvUQFEgd3IKYls+i
+    Cc/FarqKnD8dxfYjSsuvLrZGkdyJPaaYjSsYqErqb3u/bskmdRMklGm99/6K1shH
+    A38gGgVEyKCaRyjgSJQ4i70PuOHS1kylt2Cbjo08CTSllNi97UiEaMpRBnhmeNJ6
+    GbR1NupAL95HLTcCGo/OzymQ2QKBgQDQknU3PJvtbvrOsC4C9K/GAQNgUa6jUrCK
+    Exwb3jxt/4e1pBxyNMwR1OtzaRDOupti8AuWmwrlYAKhm401377bGPRmYQen+PJe
+    QDUL01yaIh2oVq+6W5LmmK26pu6mbUYdcY0civ3YQinUrvr6CFz5fIf/wZGvB+wZ
+    sFTs3JvZFwKBgFv4Er4MOJg/MHPyvurz5jwgWKLBW54HCQKJy6qJ1C8H6rN5T/n/
+    UTCPFqeRth90EemNB8+MerX/tAktqbV4aQbrAq80QDW6E4egXMX5cPro+CqVtjx1
+    4p2cQP3LDJLxkER5zyAv/56IbEGzNClWN4owTvTnbbCNUvV7JDmwEzkhAoGBAJct
+    wVajUOZd7d+I5iDwWMPtkhPrwOjTE/FQ/qvYfvbAJA7uAExrpos6SNujiTI/Ikgp
+    dEza3p/54o5fIJCvODi5MtVOeW0wTgUxBwImVtXF6rdM9hzfKXCJtEs5mnv5crv+
+    xWit+mcZNhbaKkK3cyTHNhCUrtMuq9zG6hexpClLAoGAB0hLVzKkqbgAy3ud8GGK
+    XEtC1KDmwUlvsbg5r+ztVsa+pErqLoAMyXN2/Y8zhOkDD2DMP37ALkviptyG/dkf
+    gCd1woLYYXs56S6Riiq/0MZFSUbe1xwIhMR68EaufHzULtWYIectSNf+rFB6sooI
+    tTnTm5sCONEpeFnjoW3XqGY=
+    -----END PRIVATE KEY-----
+
+ingress:
+  hosts:
+    - host: hello-risf.local.domain
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls:
+    - secretName: nginx-risf-tls
+      hosts:
+        - hello-risf.local.domain
+
+service:
+  containerPort: 8080
+
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+    - ALL
+
+image:
+  repository: nginx-unprivileged
+  tag: "0.0.1"
+  pullPolicy: "IfNotPresent"
+
+htmlContent:
+  message: ""
