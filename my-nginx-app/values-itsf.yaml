@@ -65,6 +65,7 @@ tls:
     7bG694zzenNPxj893DUZQ02D4Q==
     -----END PRIVATE KEY-----
 ingress:
+  enabled: false
   hosts:
     - host: hello-itsf.local.domain
       paths:
